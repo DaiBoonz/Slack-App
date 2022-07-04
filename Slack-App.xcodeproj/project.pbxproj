@@ -12,6 +12,8 @@
 		806634AA2872BAA90029AEFB /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806634A92872BAA90029AEFB /* ChannelVC.swift */; };
 		806634B52872C6200029AEFB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806634B42872C6200029AEFB /* SWRevealViewController.m */; };
 		806634B72872CF860029AEFB /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806634B62872CF860029AEFB /* GradientView.swift */; };
+		806634BA2872DED60029AEFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806634B92872DED60029AEFB /* Constants.swift */; };
+		806634BC2872EA550029AEFB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806634BB2872EA550029AEFB /* LoginVC.swift */; };
 		80DED74D2871AD3F004D1CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DED74C2871AD3F004D1CF7 /* AppDelegate.swift */; };
 		80DED74F2871AD3F004D1CF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DED74E2871AD3F004D1CF7 /* SceneDelegate.swift */; };
 		80DED7542871AD3F004D1CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DED7522871AD3F004D1CF7 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		806634B32872C6200029AEFB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		806634B42872C6200029AEFB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		806634B62872CF860029AEFB /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		806634B92872DED60029AEFB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		806634BB2872EA550029AEFB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		80DED7492871AD3F004D1CF7 /* Slack-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DED74C2871AD3F004D1CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80DED74E2871AD3F004D1CF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 			children = (
 				806634A62872BA820029AEFB /* ChatVC.swift */,
 				806634A92872BAA90029AEFB /* ChannelVC.swift */,
+				806634BB2872EA550029AEFB /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -93,6 +98,14 @@
 			path = "Supporting File";
 			sourceTree = "<group>";
 		};
+		806634B82872DEB30029AEFB /* Ultilities */ = {
+			isa = PBXGroup;
+			children = (
+				806634B92872DED60029AEFB /* Constants.swift */,
+			);
+			path = Ultilities;
+			sourceTree = "<group>";
+		};
 		80DED7402871AD3F004D1CF7 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +127,7 @@
 		80DED74B2871AD3F004D1CF7 /* Slack-App */ = {
 			isa = PBXGroup;
 			children = (
+				806634B82872DEB30029AEFB /* Ultilities */,
 				806634A52872BA480029AEFB /* Model */,
 				806634A42872BA410029AEFB /* Views */,
 				806634A32872BA320029AEFB /* Controller */,
@@ -254,8 +268,10 @@
 			files = (
 				806634A72872BA820029AEFB /* ChatVC.swift in Sources */,
 				80DED74D2871AD3F004D1CF7 /* AppDelegate.swift in Sources */,
+				806634BC2872EA550029AEFB /* LoginVC.swift in Sources */,
 				806634B72872CF860029AEFB /* GradientView.swift in Sources */,
 				806634B52872C6200029AEFB /* SWRevealViewController.m in Sources */,
+				806634BA2872DED60029AEFB /* Constants.swift in Sources */,
 				80DED74F2871AD3F004D1CF7 /* SceneDelegate.swift in Sources */,
 				806634AA2872BAA90029AEFB /* ChannelVC.swift in Sources */,
 			);
