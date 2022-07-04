@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02F4E191CB09912F9C5AC66C /* Pods_Slack_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5A9CD02E7DA38DFA6458BE8 /* Pods_Slack_App.framework */; };
+		806634A72872BA820029AEFB /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806634A62872BA820029AEFB /* ChatVC.swift */; };
+		806634AA2872BAA90029AEFB /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806634A92872BAA90029AEFB /* ChannelVC.swift */; };
+		806634B52872C6200029AEFB /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 806634B42872C6200029AEFB /* SWRevealViewController.m */; };
 		80DED74D2871AD3F004D1CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DED74C2871AD3F004D1CF7 /* AppDelegate.swift */; };
 		80DED74F2871AD3F004D1CF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DED74E2871AD3F004D1CF7 /* SceneDelegate.swift */; };
-		80DED7512871AD3F004D1CF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DED7502871AD3F004D1CF7 /* ViewController.swift */; };
 		80DED7542871AD3F004D1CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DED7522871AD3F004D1CF7 /* Main.storyboard */; };
 		80DED7562871AD42004D1CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DED7552871AD42004D1CF7 /* Assets.xcassets */; };
 		80DED7592871AD42004D1CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DED7572871AD42004D1CF7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F01E8BFBE1490898A4D90C3 /* Pods-Slack-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack-App.debug.xcconfig"; path = "Target Support Files/Pods-Slack-App/Pods-Slack-App.debug.xcconfig"; sourceTree = "<group>"; };
+		4F13667C151AF502F4CEFD46 /* Pods-Slack-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack-App.release.xcconfig"; path = "Target Support Files/Pods-Slack-App/Pods-Slack-App.release.xcconfig"; sourceTree = "<group>"; };
+		806634A62872BA820029AEFB /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		806634A92872BAA90029AEFB /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		806634B22872C61F0029AEFB /* Slack-App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slack-App-Bridging-Header.h"; sourceTree = "<group>"; };
+		806634B32872C6200029AEFB /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		806634B42872C6200029AEFB /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		80DED7492871AD3F004D1CF7 /* Slack-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slack-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DED74C2871AD3F004D1CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80DED74E2871AD3F004D1CF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80DED7502871AD3F004D1CF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80DED7532871AD3F004D1CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80DED7552871AD42004D1CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80DED7582871AD42004D1CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80DED75A2871AD42004D1CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A9CD02E7DA38DFA6458BE8 /* Pods_Slack_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slack_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F4E191CB09912F9C5AC66C /* Pods_Slack_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5852FF9F7710F64E95847CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F01E8BFBE1490898A4D90C3 /* Pods-Slack-App.debug.xcconfig */,
+				4F13667C151AF502F4CEFD46 /* Pods-Slack-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		806634A32872BA320029AEFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				806634A62872BA820029AEFB /* ChatVC.swift */,
+				806634A92872BAA90029AEFB /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		806634A42872BA410029AEFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		806634A52872BA480029AEFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		806634AB2872C4530029AEFB /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				806634B32872C6200029AEFB /* SWRevealViewController.h */,
+				806634B42872C6200029AEFB /* SWRevealViewController.m */,
+				806634B22872C61F0029AEFB /* Slack-App-Bridging-Header.h */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
 		80DED7402871AD3F004D1CF7 = {
 			isa = PBXGroup;
 			children = (
 				80DED74B2871AD3F004D1CF7 /* Slack-App */,
 				80DED74A2871AD3F004D1CF7 /* Products */,
+				5852FF9F7710F64E95847CAC /* Pods */,
+				DA6A2B4D587B6D856ABD548B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +111,26 @@
 		80DED74B2871AD3F004D1CF7 /* Slack-App */ = {
 			isa = PBXGroup;
 			children = (
+				806634AB2872C4530029AEFB /* Supporting File */,
+				806634A52872BA480029AEFB /* Model */,
+				806634A42872BA410029AEFB /* Views */,
+				806634A32872BA320029AEFB /* Controller */,
 				80DED74C2871AD3F004D1CF7 /* AppDelegate.swift */,
 				80DED74E2871AD3F004D1CF7 /* SceneDelegate.swift */,
-				80DED7502871AD3F004D1CF7 /* ViewController.swift */,
 				80DED7522871AD3F004D1CF7 /* Main.storyboard */,
 				80DED7552871AD42004D1CF7 /* Assets.xcassets */,
 				80DED7572871AD42004D1CF7 /* LaunchScreen.storyboard */,
 				80DED75A2871AD42004D1CF7 /* Info.plist */,
 			);
 			path = "Slack-App";
+			sourceTree = "<group>";
+		};
+		DA6A2B4D587B6D856ABD548B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5A9CD02E7DA38DFA6458BE8 /* Pods_Slack_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DED75D2871AD42004D1CF7 /* Build configuration list for PBXNativeTarget "Slack-App" */;
 			buildPhases = (
+				C66965C0BCC527F1C1571062 /* [CP] Check Pods Manifest.lock */,
 				80DED7452871AD3F004D1CF7 /* Sources */,
 				80DED7462871AD3F004D1CF7 /* Frameworks */,
 				80DED7472871AD3F004D1CF7 /* Resources */,
+				A3F07E566AC89139DAFF82D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +167,7 @@
 				TargetAttributes = {
 					80DED7482871AD3F004D1CF7 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -133,14 +202,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A3F07E566AC89139DAFF82D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slack-App/Pods-Slack-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Slack-App/Pods-Slack-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Slack-App/Pods-Slack-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C66965C0BCC527F1C1571062 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Slack-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80DED7452871AD3F004D1CF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80DED7512871AD3F004D1CF7 /* ViewController.swift in Sources */,
+				806634A72872BA820029AEFB /* ChatVC.swift in Sources */,
 				80DED74D2871AD3F004D1CF7 /* AppDelegate.swift in Sources */,
+				806634B52872C6200029AEFB /* SWRevealViewController.m in Sources */,
 				80DED74F2871AD3F004D1CF7 /* SceneDelegate.swift in Sources */,
+				806634AA2872BAA90029AEFB /* ChannelVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +397,11 @@
 		};
 		80DED75E2871AD42004D1CF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F01E8BFBE1490898A4D90C3 /* Pods-Slack-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8K5RT5237Z;
@@ -306,6 +421,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Blockstart.Slack-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Slack-App/Supporting File/Slack-App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,9 +430,11 @@
 		};
 		80DED75F2871AD42004D1CF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F13667C151AF502F4CEFD46 /* Pods-Slack-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8K5RT5237Z;
@@ -335,6 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Blockstart.Slack-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Slack-App/Supporting File/Slack-App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
